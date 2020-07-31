@@ -33,6 +33,6 @@
     padding: 0;
 } 
 
-.infoCardContainer--image:{
-    background-color: blue;
+.infoCardContainer--image{
+    image-resolution: 1260xp;
 }
