@@ -17,6 +17,7 @@
     color: gray;
     background-color: blue;
     border: transparent;
+    
 }
 
 .infoCardContainer--vintage {
@@ -31,3 +32,7 @@
     max-width: 1260px;
     margin: auto;
 } 
+
+.infoCardContainer-image{
+    background-image: white;
+}
