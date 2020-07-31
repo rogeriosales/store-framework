@@ -34,5 +34,7 @@
 } 
 
 .infoCardContainer{
-    image-resolution: 1260xp;
+    max-width: 1260px;
+    margin: auto;
+    padding: 0;
 }
