@@ -29,7 +29,13 @@
 }
 
 .infoCardContainer--metal {
-    background-color: white;
+    background-color: #e1e1e1;
+    max-width: 1260px;
+    margin: auto;
+    padding: 0;
+} 
+.infoCardContainer--image {
+    background-color: #e1e1e1;
     max-width: 1260px;
     margin: auto;
     padding: 0;
