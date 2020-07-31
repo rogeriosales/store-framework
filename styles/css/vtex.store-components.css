@@ -14,7 +14,7 @@
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    color: white;
+    color: gray;
     background-color: white;
     border: transparent;
 }
@@ -26,6 +26,7 @@
     padding: 0;
     
     
+    
 }
 
 .infoCardContainer--metal {
@@ -34,3 +35,7 @@
     margin: auto;
     padding: 0;
 } 
+
+.infoCardContainer--image{
+    background-color: blue;
+}
