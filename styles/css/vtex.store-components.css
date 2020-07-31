@@ -17,7 +17,6 @@
     color: gray;
     background-color: blue;
     border: transparent;
-    bottom: white;
     
 }
 
@@ -25,6 +24,7 @@
     background-color: #edcfd1;
     max-width: 1260px;
     margin: auto;
+    padding: 0;
     
 }
 
@@ -32,8 +32,5 @@
     background-color: #e1e1e1;
     max-width: 1260px;
     margin: auto;
+    padding: 0;
 } 
-
-.infoCardContainer-image{
-    background-image: white;
-}
