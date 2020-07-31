@@ -23,10 +23,7 @@
     background-color: #edcfd1;
     max-width: 1260px;
     margin: auto;
-    padding: 0;
-    
-    
-    
+    padding: 0;    
 }
 
 .infoCardContainer--metal {
@@ -36,6 +33,6 @@
     padding: 0;
 } 
 
-.infoCardContainer--image{
+.infoCardContainer :global(.vtex-image)image{
     background-color: blue;
 }
