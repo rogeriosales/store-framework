@@ -33,6 +33,6 @@
     padding: 0;
 } 
 
-.infoCardContainer :global(.vtex-image)image{
+.infoCardContainer :global(.vtex-image){
     background-color: blue;
 }
