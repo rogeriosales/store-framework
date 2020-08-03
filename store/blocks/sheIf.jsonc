@@ -11,12 +11,12 @@
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 4,
-          "minItemsPerPage": 1,
+          "maxItems": 10,
+          "itemsPerPage": 8,
+          "minItemsPerPage": 4,
           "scroll": "BY_PAGE",
           "arrows": true,
-          "titleText": "Top sellerss"
+          "titleText": "Top sellers"
         }
       }
     },
