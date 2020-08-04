@@ -1,7 +1,7 @@
 {
   "store.product": {
     "blocks": [
-      "shelf"
+      "shelf#demo"
     ]
   },
   "shelf": {
