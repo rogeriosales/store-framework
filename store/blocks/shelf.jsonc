@@ -32,5 +32,20 @@
         "product-identifier.summary",
         "product-summary-buy-button"
       ]
+    },
+    "list-context.product-list#demo1": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout"],
+      "props": {
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": false
+        }
+      }
+
     }
+
+
+
+
 }
