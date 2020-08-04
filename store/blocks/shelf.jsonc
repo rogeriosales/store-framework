@@ -1,12 +1,12 @@
 {
-    "store.home": {
+    "store.home#demo": {
       "blocks": [
         "shelf"
       ]
     },
 
     "shelf": {
-      "blocks": ["product-summary.shelf"],
+      "blocks": ["product-summary.shelf#demo"],
       "props": {
         "category": 1,
         "orderBy": "OrderByTopSaleDESC",
@@ -21,7 +21,7 @@
         }
       }
     },
-    "product-summary.shelf": {
+    "product-summary.shelf#demo": {
       "children": [
         "product-summary-image",
         "product-summary-add-to-list-button",
