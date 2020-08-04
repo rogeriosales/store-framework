@@ -1,5 +1,5 @@
 {
-    "store.product#demo": {
+    "store.home#demo": {
       "blocks": [
         "shelf#demo"
       ]
@@ -12,7 +12,7 @@
         "orderBy": "OrderByPriceDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 3,
+          "maxItems": 8,
           "itemsPerPage": 4,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
