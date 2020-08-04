@@ -1,10 +1,10 @@
 {
   "store.product#demo": {
     "blocks": [
-      "shelf#demo"
+      "shelf"
     ]
   },
-  "shelf#demo": {
+  "shelf": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "category": 1,
