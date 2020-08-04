@@ -1,25 +1,25 @@
 {
     "store.home#new":{
         "blocks":[
-            "shelf"
+           "shelf"
         ]
     },
-    "shelf":{
-        "blocks":["product-summary.shelf"],
-        "props":{
-            "category":1,
-            "orderBy": "OrderByTopSaleDESC",
-            "paginationDotsVisibility": "desktopOnly",
-            "productList": {
-                "maxItems": 8,
-                "itemsPerPage": 4,
-                "minItemsPerPage": 1,
-                "scroll": "BY_PAGE",
-                "arrows": true,
-                "titleText": "Top sellers"
-              }
 
+    "shelf": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "category": 1,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "desktopOnly",
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Top sellers"
         }
+      }
     },
     "product-summary.shelf": {
       "children": [
@@ -33,19 +33,21 @@
         "product-summary-buy-button"
       ]
     },
-    "list-context.product-list#demo1": {
-      "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout"],
-      "props": {
-        "autoplay": {
-          "timeout": 5000,
-          "stopOnHover": false
-        }
+
+      
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home"]
+  },
+  
+  "slider-layout#home": {
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
       }
-
     }
+  }
 
+  }
 
-
-
-}
