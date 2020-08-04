@@ -1,5 +1,5 @@
 {
-  "store.product#demo": {
+  "store.product": {
     "blocks": [
       "shelf"
     ]
@@ -16,7 +16,8 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Top sellers",
+        "text": "aaaa"
       }
     }
   },
