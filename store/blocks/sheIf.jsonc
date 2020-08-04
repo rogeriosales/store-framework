@@ -1,18 +1,18 @@
 {
     "store.product": {
       "blocks": [
-        "shelf"
+        "shelf#demo"
       ]
     },
 
-    "shelf": {
-      "blocks": ["product-summary.shelf"],
+    "shelf#demo": {
+      "blocks": ["product-summary.shelf#demo"],
       "props": {
         "category": 1,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 8,
+          "maxItems": 3,
           "itemsPerPage": 4,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
@@ -21,7 +21,7 @@
         }
       }
     },
-    "product-summary.shelf": {
+    "product-summary.shelf#demo": {
       "children": [
         "product-summary-image",
         "product-summary-add-to-list-button",
